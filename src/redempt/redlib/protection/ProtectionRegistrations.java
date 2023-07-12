@@ -181,9 +181,6 @@ class ProtectionRegistrations {
         if (holder instanceof BlockState) {
             return ((BlockState) holder).getBlock();
         }
-        if (holder instanceof BlockInventoryHolder) {
-            return ((BlockInventoryHolder) holder).getBlock();
-        }
         return null;
     }
 
